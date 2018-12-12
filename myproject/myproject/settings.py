@@ -26,7 +26,7 @@ SECRET_KEY = '#et0-)onedr-v5yz9i=!uo@u-l4wyjns+l2s)*v*&r2$j@f4ue'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', '192.168.1.212', '127.0.0.1', '192.168.1.44']
 
 
 # Application definition
@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'USER': 'admin',
         'PASSWORD': 'kkkk0000',
-	'HOST': '127.0.0.1',
+	'HOST': '192.169.1.44',
         'PORT': '5432',
     }
 }

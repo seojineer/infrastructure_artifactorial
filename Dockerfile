@@ -13,16 +13,11 @@ RUN apt-get update \
 COPY ./requirements.txt ./
 
 # django
-RUN pip install -r requirements.txt \
-	&& pip install virtualenv \
-		virtualenvwrapper \
-		django
+RUN pip install -r requirements.txt
+
 COPY . .
 
-EXPOSE 8000 5432
+EXPOSE 8000 5432 9998
 
-#CMD ["virtualenv", "venv"]
 WORKDIR /myproject
-#CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
-CMD python manage.py migrate
-CMD python manage.py runserver && bash
+CMD ["python", "manage.py", "runserver", "0.0.0.0:9998"]
