@@ -4,12 +4,6 @@ This is Artifactorial File server for lava test result file.
 
 Lava dispatcher can upload result file while testing on DUT.
 
-(memo)
---------
-This is repository what I modified for test.
-You can install as below.
-https://github.com/ivoire/Artifactorial
-
 
 Running Artifactorial Server
 --------
@@ -51,3 +45,9 @@ $ curl -F 'path=@test.txt' -F 'token=feef5495026b1e9de708b557855b8079' http://{a
 - Test job file
 You can submit and test below job file.
 https://github.com/seojineer/lava
+
+memo
+--------
+This is repository what I modified for test.
+You can install as below.
+https://github.com/ivoire/Artifactorial
