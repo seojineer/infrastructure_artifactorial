@@ -11,7 +11,7 @@ You can install as below.
 https://github.com/ivoire/Artifactorial
 
 
-1. Running Artifactorial Server
+Running Artifactorial Server
 --------
 
 Dockerfile includes creating superuser(id: admin, pw: admin).
@@ -27,12 +27,12 @@ $ ./run_docker.sh
 - Using script
 Run start-artifact.sh to start running artifactorial server.
 
-2. Create directory
+Create directory
 --------
 
 You can create directory using superuser account on server web interface.
 
-3. Requirement
+Requirement
 --------
 
 - Network
@@ -41,7 +41,7 @@ Before transfering result file to server, DUT have to connected network first.
 - Tockens
 You can create tokens using superuser account on server web interface.
 
-4. Test
+Test
 --------
 
 - curl command
