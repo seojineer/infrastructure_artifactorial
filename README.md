@@ -51,3 +51,4 @@ memo
 This is repository what I modified for test.
 You can install as below.
 https://github.com/ivoire/Artifactorial
+
